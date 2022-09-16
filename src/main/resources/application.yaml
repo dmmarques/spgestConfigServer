@@ -5,5 +5,5 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/dmmarques/spgestConfigServer.git
+          uri: "https://github.com/dmmarques/spgestConfigServer.git"
           default-label: master
