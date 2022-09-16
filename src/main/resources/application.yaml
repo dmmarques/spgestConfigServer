@@ -6,4 +6,5 @@ spring:
       server:
         git:
           uri: "https://github.com/dmmarques/spgestConfigServer.git"
+          clone-on-start: true
           default-label: master

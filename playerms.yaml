@@ -1,2 +1,11 @@
+playerms:
+  msg: Welcome to Player Microservice default configuration
+  build.version: 0.1
+  mailDetails:
+    hostname: dmmarques
+    port: 8092
+    from: dmmarques@fullstack.com
+    subject: Player MS Config default config
+
 server:
   port: 8081
