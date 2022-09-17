@@ -7,5 +7,15 @@ playerms:
     from: dmmarques@fullstack.com
     subject: Player MS Config default config
 
+spring:
+  data:
+    mongodb:
+      authentication-database: admin
+      username: rootuser
+      password: rootpass
+      database: player
+      host: localhost
+      port: 27017
+
 server:
   port: 8081
