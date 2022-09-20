@@ -1,0 +1,21 @@
+playerms:
+  msg: Welcome to Club Microservice default configuration
+  build.version: 0.1
+  mailDetails:
+    hostname: dmmarques
+    port: 8092
+    from: dmmarques@fullstack.com
+    subject: Club MS Config default config
+
+spring:
+  data:
+    mongodb:
+      authentication-database: admin
+      username: rootuser
+      password: rootpass
+      database: club
+      host: localhost
+      port: 27017
+
+server:
+  port: 8082
